@@ -6,8 +6,18 @@
         {
             "label": "AESExample",
             "type": "shell",
-			"command": "C:\\MinGW\\bin\\g++",
-			"args": ["-g", "${workspaceFolder}/AESExample/main.cpp", "-o", "${workspaceFolder}/AESExample/main"],
+            "command": "C:\\MinGW\\bin\\g++",
+            "args": [
+                "-g",
+                "${workspaceFolder}//main.cpp",
+                "-o",
+                "${workspaceFolder}/AESExample/main"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
